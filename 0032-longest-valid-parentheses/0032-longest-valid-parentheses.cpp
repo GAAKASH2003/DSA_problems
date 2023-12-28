@@ -17,8 +17,8 @@ public:
                     st.push(i);
                 }
                 else{
-                
-                    ma=max(ma,i-st.top());
+                    int len=i-st.top();
+                    ma=max(ma,len);
                 }
             }
         }
