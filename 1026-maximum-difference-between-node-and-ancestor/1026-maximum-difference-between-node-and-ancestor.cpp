@@ -25,7 +25,7 @@ public:
         if(root->left==NULL and root->right==NULL){
             mi=min(mi,root->val); 
             ma=max(ma,root->val);
-            cout<<mi<<" "<<ma<<endl;
+            // cout<<mi<<" "<<ma<<endl;
             res=max(res,ma-mi);
             return;
         }
